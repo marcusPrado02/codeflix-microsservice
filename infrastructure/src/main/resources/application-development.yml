@@ -1,0 +1,14 @@
+# Spring reads application.yml first and then reads this file overriding the values
+
+mysql:
+  username: root
+  password: 123456
+  database: videos_adm
+  url: localhost:3306
+
+server:
+  port: 8080
+  undertow:
+    threads:
+      worker: 10
+      io: 2

@@ -1,0 +1,13 @@
+# Spring reads application.yml first and then reads this file overriding the values
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    # It is possible to save data in a file instead of using memory "h2:file:./.h2/dev"
+    url: jdbc:h2:mem:videos_adm_test;MODE=MYSQL;DATABASE_TO_LOWER=TRUE
+    username: root
+    password: 123456
+  h2:
+    console:
+      enabled: true
+      path: /h2

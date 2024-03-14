@@ -1,0 +1,4 @@
+rootProject.name = 'full-cycle-3.0-video-catalog-admin-microservice'
+include 'domain'
+include 'application'
+include 'infrastructure'
